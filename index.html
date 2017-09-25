@@ -1,73 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<!-- Meta data. -->
 <head>
 
-<!-- Title. -->
-<title>The Paul Zhang</title>
+	<title>The Paul Zhang</title>
 
-<!-- Sets border width and color for table. -->
-<!-- Adds border around site nav links. -->
+	<!-- Roboto font stylesheet. -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
 <style>
 
-
-table, th, td {
-	border: 2px solid black;
-}
-
-.center {
-	border-style: outset;
-	border-color: #2E5090;
-	text-align: center;
-}
-
+	body {
+		 font-family: 'Roboto';font-size: 22px;
+	}
 
 </style>
-
 </head>
-
 
 <body>
 
-<!-- Title of webpage. -->
-<h1>The Paul Zhang</h1>
+	<!-- Overall container. -->
+	<div id="container" style="width:auto;">
 
-<!-- Example of header, normal text, bold text, and italicized text. -->
-<p>Normal text example. <b>Bold text example.</b> <i>Italic text example.</i> </p>
+	<!-- Title subcontainer. -->
+	<div id="header" style="background-color:#4c4cff">
+		<h1>The Paul Zhang</h1>
+	</div>
 
-<!-- Site navigation menu. -->
-<div class="center">
-	<a href="index.html"><p><b>HOME</b></p></a>
-	<a href="aboutme.html"><p><b>ABOUT ME</b></p></a>
-</div>
+	<!-- Left side Site Navigation menu. -->
+	<div id="menu" style="background-color:#C0C0C0;height:200px;width:200px;float:left;">
+		<nav>
+		<ul style="list-style-type:none">
+				<li><a href="index.html"><b>HOME</b></a></li>
+				<li><a href="aboutme.html"><b>ABOUT ME</b></a></li>
+		</ul>
+	    </nav>
+	</div>
+
+	<!-- Example of header, normal text, bold text, and italicized text. -->
+	<p>Normal text example. <b>Bold text example.</b> <i>Italic text example.</i> </p>
+
+	<h2>3 rows, 2 column table.</h2>
+
+	<!-- Table with 3 row and 2 columns. 10 and 20 in first row, 30 and 40 in second row, 50 and 60 in third row. -->
+	<table style="width:10%">
+		<tr>
+		<th>10</th>
+		<th>20</th>
+	    </tr>
+	    <tr>
+		<th>30</th>
+		<th>40</th>
+	    </tr>
+	    <tr>
+		<th>50</th>
+		<th>60</th>
+	    </tr>
+	</table>
 
 
-<h2>3 rows, 2 column table.</h2>
+	<h2>Link to SDUHSD website</h2>
 
-<!-- Table with 3 row and 2 columns. 10 and 20 in first row, 30 and 40 in second row, 50 and 60 in third row. -->
-<table style="width:10%">
-	<tr>
-    	<th>10</th>
-        <th>20</th>
-    </tr>
-    <tr>
-    	<th>30</th>
-        <th>40</th>
-    </tr>
-    <tr>
-    	<th>50</th>
-        <th>60</th>
-    </tr>
-</table>
-
-
-<h2>Link to SDUHSD website</h2>
-
-<!-- Adds a link to SDUHSD website. -->
-<a href="http://www.sduhsd.net">
-	<img src="sduhsd logo.png" alt="www.sduhsd.net" style="width:128px;height:128px;"
-</a>
-
+	<!-- Adds a link to SDUHSD website. -->
+	<a href="http://www.sduhsd.net">
+		<img src="sduhsd logo.png" alt="www.sduhsd.net" style="width:128px;height:128px;"
+	</a>
 
 </body>
 </html>
