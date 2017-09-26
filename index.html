@@ -20,8 +20,28 @@
     border-style: outset;
     }
     
-    .header {
-       border-color="#4c4cff"
+    a:link, a:visited {
+    background-color: #80b3ff;
+    color: #000000;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-style: inset;
+	}
+
+
+	a:hover, a:active {
+   		background-color: #4d85ff;
+	}
+    
+    div.header {
+    margin-bottom:20px;
+    text-align: center;
+    }
+    
+    div.menu {
+	margin-bottom:20px;
+    text-align: center;
     }
 
 </style>
@@ -33,17 +53,17 @@
 	<div class="container" style="width:auto;">
 
 	<!-- Title subcontainer. -->
-	<div id="header" style="background-color:#4c4cff">
+	<div class="header" style="background-color:#4d85ff;border-color:#4d85ff;">
 		<h1>The Paul Zhang</h1>
 	</div>
 
 	<!-- Left side Site Navigation menu. -->
-	<div id="menu" style="background-color:#C0C0C0;height:50px;width:500px;float:none;">
+	<div class="menu" style="background-color:#C0C0C0;height:70px;float:none;">
 		<nav>
-		<ul>
-				<a href="index.html"><b>HOME</b></a>
-				<a href="aboutme.html"><b>ABOUT ME</b></a>
-		</ul>
+			<ul>
+				<a href="index.html">HOME</a>
+				<a href="aboutme.html">ABOUT ME</a>
+			</ul>
 	    </nav>
 	</div>
 
