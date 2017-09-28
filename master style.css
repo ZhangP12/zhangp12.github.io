@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	
     body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
 	}
     
     div {
@@ -31,7 +29,7 @@
     }
     
     div.menu {
-	margin-bottom:20px;
+		margin-bottom:20px;
         text-align: center;
         height:20px;
         padding:20px;
