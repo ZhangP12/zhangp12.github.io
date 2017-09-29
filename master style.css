@@ -2,6 +2,11 @@
 <html>
 <head>
 
+	body {
+		font-family: "Roboto", sans-serif;
+		font-size: 14px;
+	}
+
     div {
         padding: 5px;
         border-style: outset;
@@ -15,6 +20,7 @@
         text-decoration: none;
         border-style: inset;
 	}
+	
 	div.menu a:hover, a:active {
    		background-color: #b3cbff;
 	}
