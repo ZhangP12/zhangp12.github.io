@@ -52,15 +52,15 @@
 			<h4>Omelettes</h4>
 				<p>Eggs are awesome. Eggs with scrumptious stuff inside are even better. Every time my family stays at a hotel,
 				I get omelettes for breakfast. Go eggs-with-stuff-inside! Sometimes I make it myself. It always tastes horrible.</p>
-					<a href:"https://www.incredibleegg.org/recipe/basic-french-omelet/">French Omelette Recipe</a>
+					<a href="https://www.incredibleegg.org/recipe/basic-french-omelet/">French Omelette Recipe</a>
 			<h4>Smoothies</h4>
-				</p>Actually, it's my little brother who makes smoothies 99% of the time. I just take some. 
+				<p>Actually, it's my little brother who makes smoothies 99% of the time. I just take some. 
 				The other 1% of the time I try to follow some online recipe. Those are predictable disasters. </p>
-					<a href:"http://allrecipes.com/recipes/138/drinks/smoothies/">A Lot of Smoothie Recipes</a>
+					<a href="http://allrecipes.com/recipes/138/drinks/smoothies/">A Lot of Smoothie Recipes</a>
 			<h4>Boba Milk Tea</h4>
 				<p>Don't try making boba milk tea. There are lots of awesome places to go for boba.
 				Try the link below. (It's been a long time since I had boba, so don't count on me to be an expert).</p>
-					<a href:"https://www.yelp.com/search?find_desc=boba+milk+tea&find_loc=San+Diego%2C+CA/">Many Boba Places</a>
+					<a href="https://www.yelp.com/search?find_desc=boba+milk+tea&find_loc=San+Diego%2C+CA/">Many Boba Places</a>
 		<h2>An Interesting Movie: The Lego Movie</h2>
 			<p>The Lego Movie is an awesome movie, but this section is here mostly to complete the website assignment.</p>
 			<h4>Wow, a Synopsis</h4>
@@ -80,14 +80,27 @@
 			<h4>A Longer Explanation</h4>
 				<p>The P versus NP problem concerns how quickly an algorithm can solve a problem given input n. 
 				P stands for polynomial time, while NP stands for nondeterministic polynomial time.
-				Basically, P problems require an algorithm that at worst will require x^k time, where k is an integer.
-				However, NP-hard problems require an algorithm that requires x! time or k^x time, so it grows exponentially.
-				To clear up confusion, P problems are actually part of NP, because NP problems can be verified in polynomial time, and so can P problems.
-				NP-hard problems are the hard ones (duh).
+				<br>A P problem requires at worst x<sup>k</sup> time to solve, where x is "length" of the problem, while k is an integer. Hence the name polynomial time.
+				NP problems ARE NOT the hard problems I was talking about. They're any problem whose solution can be verified quickly,
+				which obviously includes P problems. NP-hard problems are, well, hard. They require k<sup>x</sup> time to solve (sometimes x!),
+				so time grows exponentially as the length of the problem grows. That's really bad.
+				<br>The Euler diagram below gives an idea of how the different classes of P and NP are related. (Note: Left side assumes P=NP, right side assumes P≠NP).</p>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/P_np_np-complete_np-hard.svg" alt="Image failed to load" style="height:250px;width:400px;">
 				
-					If every problem which has a quickly verifiable solution also has a quick method of solving it (i.e. P=NP) then modern crytography would not work.
-					Because cryptography relies on hard problems, P=NP would mean that most existing crytographic systems would be broken.
-					However, most computer scientists believe that P does not equal NP. 
+			<h4>Impact of Proving P=NP or P≠NP</h4>
+				<p>If every problem which has a quickly verifiable solution also has a quick method of solving it (i.e. P=NP) then modern crytography would not work.
+				Because cryptography relies on hard problems, P=NP would mean that most existing crytographic systems would be broken.
+				<br>However, most computer scientists believe that P does not equal NP. Mostly because of the NP-complete problems.
+				If a solution in polynomial time is found for any NP-complete problem, then <i>all problems in NP will have a solution in polynomial time<i>,
+				which would prove P=NP. However, after decades of research, no polynomial time solution has ever been found.</p>
+			<h4>Additional Resources</h4>
+				<p>Please take everything I wrote about the P versus NP problem with a grain of salt. I am not a computer scientist, and don't fully understand the mathematics,
+				so I am not very qualified to give a lecture on this topic.
+				<br>That being said, here are some additional resources if you would like to check them out:</p>
+					<a href="https://stackoverflow.com/questions/1857244/what-are-the-differences-between-np-np-complete-and-np-hard">Answer to a Question About P, NP-hard, NP-complete Differences</a>
+					<a href="http://jeffe.cs.illinois.edu/teaching/algorithms/notes/30-nphard.pdf">Lecture Notes on NP-hard Problems from University of Illinois</a>
+					<a href="http://www.claymath.org/sites/default/files/pvsnp.pdf">Long Article from Clay Mathematics Institute</a>
+				
 	</div>
 	
 
