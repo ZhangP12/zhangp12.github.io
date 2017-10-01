@@ -19,6 +19,7 @@
 		text-align: center;
 		text-decoration: none;
 		border-style: inset;
+		border-color: #C0C0C0;
 	}
 	
 	div.menu a:hover, a:active {
@@ -36,7 +37,7 @@
 		text-align: center;
 		height:20px;
 		padding:20px;
-		background-color:#C0C0C0
+		background-color:#C0C0C0;
     	}
    
 </head>
